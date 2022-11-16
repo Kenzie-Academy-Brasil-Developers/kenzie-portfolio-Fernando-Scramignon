@@ -7,7 +7,9 @@ import imgReact from "../public/static/img/stack/react.svg";
 import { FaVuejs } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 import { FaDocker } from "react-icons/fa";
-import {SiExpress} from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { DiPython } from "react-icons/di";
+import { DiDjango } from "react-icons/di";
 
 export const stackData = [
   {
@@ -37,5 +39,13 @@ export const stackData = [
   {
     title: "Express",
     img: SiExpress,
+  },
+  {
+    title: "Python",
+    img: DiPython
+  },
+  {
+    title: "DiDjango",
+    img: DiDjango
   }
 ];
